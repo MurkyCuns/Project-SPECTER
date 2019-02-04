@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Heebo');
 
 body {
 	margin: 0;
@@ -18,26 +19,41 @@ header {
 	margin: 0;
 }
 
-#top-left-corner-logo {
-	margin:0;
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float: right;
+	margin-right: 1.5em;
+	margin-top: 1.2em;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	color: #ffffff;
+}
+
+#logo-top-left-corner {
 	float: left;
 }
 
-.menu-items {
-	font-family: 'Roboto', sans-serif;
-	font-size: 1.5em;
-	color: #ffffff;
-	float: right;
-	padding-top: 1.5em;	
-	padding-left: 1.5em;
+#welcome-container {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 45.1em;
+	background-color: #000000;
 }
 
-.menu-items-right {
-	font-family: 'Roboto', sans-serif;
-	font-size: 1.5em;
-	color: #ffffff;
-	float: right;
-	padding-top: 1.5em;	
+#welcome-quote {
+	margin: 0;
 	padding-left: 1.5em;
-	padding-right: 6em;
+	padding-right: 0.8em;
+	padding-top: 0.2em;
+	font-family: 'Heebo', sans-serif;
+	font-weight: Extra-Bold;
+	line-height: 1em;
+	font-size: 9em;
+	color: #ffffff;
 }
