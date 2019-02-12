@@ -34,3 +34,58 @@ ul {
 	font-family: 'Didact Gothic', sans-serif;
 	font-size: 1.2em;
 }
+
+#welcome-container {
+	grid-column: 1 / 13;
+	background-color: #000000;
+	margin: 0;
+	padding: 0;
+}
+
+.welcome-quote {
+	color: #ffffff;
+    font-family: 'Heebo', sans-serif;
+    font-size: 10em;
+    font-weight: bolder;
+    line-height: 1.2em;
+    padding-right: 50px;
+    padding-left: 100px;
+    padding-top: 75px;
+    padding-bottom: 190px;
+    margin: 0;
+}
+
+#summary-container {
+	grid-column: 7 / 11;
+	background-color: #000000;
+	margin: 0;
+	padding: 0;
+}
+
+.summary {
+	grid-column: 7 / 11;
+	color: #ffffff;
+	margin: 0;
+	font-size: 3em;
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+.yellow {
+	color: rgb(255, 211, 0);
+}
+
+.green {
+	color: rgb(36, 208, 96);
+}
+
+.spacer-column {
+	grid-row: 3 / 7;
+	grid-column: 1 / 7;
+	background-color: #000000;
+}
+
+.spacer-column-2 {
+	grid-row: 3 / 7;
+	grid-column: 11 / 13;
+	background-color: #000000;
+}
