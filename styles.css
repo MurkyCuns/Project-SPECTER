@@ -257,3 +257,56 @@ p {
 	grid-column: 12 / 13;
 	background-color: rgb(255, 211, 0);
 }
+
+#JS-container {
+	grid-column: 2 / 8;
+	background-color: rgb(255, 211, 0);
+	margin: 0;
+	padding-top: 100px;
+}
+
+.JS-title {
+	font-size: 8em;
+    font-family: 'Karla', sans-serif;
+	color: rgb(255, 0, 0);
+}
+
+.JS-subtexto {
+	color: #000000;
+	font-size: 0.5em;
+	font-family: 'Teko', sans-serif;
+	line-height: 0.1em;
+}
+
+.JS-summary {
+	font-size: 2em;
+	font-family: 'Didact Gothic', sans-serif;
+	display: inline-block;
+}
+
+#js-logo-container {
+	grid-column: 10 / 12;
+	background-color: rgb(255, 211, 0);
+}
+
+#js-logo {
+	width: 250px;
+	padding-top: 100px;
+}
+
+.spacer-column-12 {
+	grid-row: 10 / 11;
+	grid-column: 1 / 2;
+	background-color: rgb(255, 211, 0);
+}
+
+.spacer-column-13 {
+	grid-row: 10 / 11;
+	grid-column: 8 / 10;
+	background-color: rgb(255, 211, 0);
+}
+
+.spacer-column-14 {
+	grid-column: 12 / 13;
+	background-color: rgb(255, 211, 0);
+}
