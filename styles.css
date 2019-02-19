@@ -204,3 +204,56 @@ p {
 	grid-column: 12 / 13;
 	background-color: rgb(255, 211, 0);
 }
+
+#CSS-container {
+	grid-column: 2 / 8;
+	background-color: rgb(255, 211, 0);
+	margin: 0;
+	padding-top: 100px;
+}
+
+.CSS-title {
+	font-size: 8em;
+    font-family: 'Karla', sans-serif;
+	color: rgb(255, 0, 0);
+}
+
+.CSS-subtexto {
+	color: #000000;
+	font-size: 0.5em;
+	font-family: 'Teko', sans-serif;
+	line-height: 0.1em;
+}
+
+.CSS-summary {
+	font-size: 2em;
+	font-family: 'Didact Gothic', sans-serif;
+	display: inline-block;
+}
+
+#css-logo-container {
+	grid-column: 10 / 12;
+	background-color: rgb(255, 211, 0);
+}
+
+#css-logo {
+	width: 250px;
+	padding-top: 100px;
+}
+
+.spacer-column-9 {
+	grid-row: 9 / 10;
+	grid-column: 1 / 2;
+	background-color: rgb(255, 211, 0);
+}
+
+.spacer-column-10 {
+	grid-row: 9 / 10;
+	grid-column: 8 / 10;
+	background-color: rgb(255, 211, 0);
+}
+
+.spacer-column-11 {
+	grid-column: 12 / 13;
+	background-color: rgb(255, 211, 0);
+}
