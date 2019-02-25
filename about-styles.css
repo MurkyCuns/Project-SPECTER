@@ -31,7 +31,7 @@ body {
 	grid-column: 3 / 10;
 	background-color: #000000;
 	margin: 0;
-	padding-bottom: 75px;
+	padding-bottom: 50px;
 }
 
 .welcome-quote {
@@ -81,4 +81,19 @@ body {
 	font-weight: bolder;
 	font-size: 1.5em;
 	line-height: 1.2em;
+}
+
+#profile-pic-1-container {
+	grid-row: 3 / 4;
+	grid-column: 3 / 6;
+	background-color: #ffffff;
+}
+
+#profile-pic-1 {
+	width: 476.4px;
+	padding-top: 100px;
+}
+
+#profile-pic-2 {
+	width: 476.4px;
 }
