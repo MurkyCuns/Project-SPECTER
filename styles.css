@@ -6,10 +6,10 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Teko');
 @import url('https://fonts.googleapis.com/css?family=Karla');
-body {
-	margin: 0;
-	padding: 0;
-}
+	body {
+		margin: 0;
+		padding: 0;
+	}
 
 ul {
 	margin: 0;
@@ -28,7 +28,7 @@ p {
 .grid-container {
 	display: grid;
 	grid-template-columns: 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33%;
-  }
+  }	
 
 #menu-frame {
 	grid-column: 1 / 13;
@@ -59,7 +59,7 @@ p {
     font-family: 'Heebo', sans-serif;
     font-size: 10em;
     font-weight: bolder;
-    line-height: 1.2em;
+    line-height: 1em;
     padding-right: 50px;
     padding-left: 100px;
     padding-top: 75px;
