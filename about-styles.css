@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Rokkitt');
+
 body {
 	margin: 0;
 	padding: 0;
@@ -29,7 +31,7 @@ body {
 	grid-column: 3 / 10;
 	background-color: #000000;
 	margin: 0;
-	padding: 0;
+	padding-bottom: 75px;
 }
 
 .welcome-quote {
@@ -55,4 +57,28 @@ body {
 	grid-row: 2 / 3;
 	grid-column: 10 / 13;
 	background-color: #000000;
+}
+
+#summary-container {
+	grid-column: 7 / 10;
+	background-color: #ffffff;
+	margin: 0;
+	padding-top: 0;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 100px;
+}
+
+.summary {
+	color: #000000;
+	margin: 0;
+	font-size: 2em;
+    font-family: 'Rokkitt', serif;
+}
+
+.bolder {
+	font-family: 'Heebo', sans-serif;
+	font-weight: bolder;
+	font-size: 1.5em;
+	line-height: 1.2em;
 }
