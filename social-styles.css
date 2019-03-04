@@ -64,3 +64,12 @@ ul {
 	font-size: 70px;
 	font-weight: bolder;
 }
+
+#twitter-logo-container {
+	grid-row: 3 / 4;
+	grid-column: 2 / 3;
+}
+
+#twitter-logo {
+	width: 70px;
+}
