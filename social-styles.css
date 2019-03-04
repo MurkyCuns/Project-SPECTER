@@ -50,3 +50,10 @@ ul {
     padding-bottom: 190px;
     margin: 0;
 }
+
+#twitter-container {
+	grid-column: 3 / 10;
+	background-color: #ffffff;
+	margin: 0;
+	padding-bottom: 50px;
+}
