@@ -57,3 +57,10 @@ ul {
 	margin: 0;
 	padding-bottom: 50px;
 }
+
+.twitter-welcome-quote {
+	color: #1B95E0;
+	font-family: 'Didact Gothit', sans-serif;
+	font-size: 70px;
+	font-weight: bolder;
+}
