@@ -19,3 +19,23 @@
 	font-family: 'Didact Gothic', sans-serif;
 	font-size: 1.2em;
 }
+
+#welcome-container {
+	grid-column: 3 / 10;
+	background-color: #000000;
+	margin: 0;
+	padding-bottom: 50px;
+}
+
+.welcome-quote {
+	color: #ffffff;
+    font-family: 'Heebo', sans-serif;
+    font-size: 13em;
+    font-weight: bolder;
+    line-height: 0.75em;
+    padding-right: 50px;
+    padding-left: 100px;
+    padding-top: 75px;
+    padding-bottom: 190px;
+    margin: 0;
+}
