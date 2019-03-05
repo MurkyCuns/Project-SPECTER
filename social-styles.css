@@ -14,6 +14,10 @@
 	font-family: "Whitney";
 	src: url(./fonts/whitney.otf);
 }
+@font-face {
+	font-family: "Proxima Nova";
+	src: url(./fonts/proxima-nova.otf);
+}
 
 body {
 	margin: 0;
@@ -226,3 +230,52 @@ ul {
 }
 
 /* FINAL DISCORD */
+
+/* INICIO SPOTIFY */
+
+#spotify-container {
+	grid-column: 3 / 10;
+	background-color: #24D060;
+	margin: 0;
+	padding-bottom: 100px;
+}
+
+.spotify-welcome-quote {
+	color: #ffffff;
+	font-family: 'Billabong', sans-serif;
+	font-size: 6em;
+	font-weight: bolder;
+	margin-bottom: 25px;
+}
+
+#spotify-logo {
+	width: 400px;
+	padding-bottom: 50px;
+	padding-top: 96px
+}
+
+.spotify-info-quote {
+	color: #ffffff;
+	margin: 0;
+	font-size: 2em;
+    font-family: 'Proxima Nova', sans-serif;
+    padding-bottom: 50px;
+}
+
+#MC-spotify {
+	padding-top: 20px;
+}
+
+.spacer-column-5 {
+	grid-row: 7 / 8;
+	grid-column: 1 / 3;
+	background-color: #24D060;
+}
+
+.spacer-column-6 {
+	grid-row: 7 / 8;
+	grid-column: 10 / 13;
+	background-color: #24D060;
+}
+
+/* FINAL SPOTIFY */
