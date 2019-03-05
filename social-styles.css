@@ -103,7 +103,7 @@ ul {
 	grid-column: 3 / 10;
 	background-color: #ff6baf;
 	margin: 0;
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 }
 
 .instagram-welcome-quote {
@@ -111,6 +111,7 @@ ul {
 	font-family: 'Billabong', sans-serif;
 	font-size: 6em;
 	font-weight: bolder;
+	margin-bottom: 25px;
 }
 
 #instagram-logo-container {
@@ -126,19 +127,24 @@ ul {
 	color: #ffffff;
 	margin: 0;
 	font-size: 2em;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Billabong', sans-serif;
+    padding-bottom: 50px;
+}
+
+.ig-pic {
+	width: 400px;
 }
 
 #instagram-pic-1-container {
-	grid-column: 3 / 7;
+	grid-column: 3 / 5;
 }
 
 #instagram-pic-2-container {
-	grid-column: 3 / 7;
+	grid-column: 6 / 9;
 }
 
 #instagram-pic-3-container {
-	grid-column: 3 / 7;
+	grid-column: 9 / 13;
 }
 
 #instagram-pic-4-container {
