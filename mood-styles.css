@@ -70,3 +70,87 @@ p {
     padding-bottom: 190px;
     margin: 0;
 }
+
+#instagram-container {
+	grid-column: 3 / 11;
+	margin: 0;
+	padding-bottom: 100px;
+	padding-top: 100px;
+	background-color: #f7f4f4;
+}
+
+.ig-personal-pic {
+	width: 400px;
+}
+
+#instagram-pic-1-container {
+	grid-column: 3 / 5;
+}
+
+#instagram-pic-2-container {
+	grid-column: 6 / 9;
+}
+
+#instagram-pic-3-container {
+	grid-column: 9 / 13;
+}
+
+#instagram-pic-4-container {
+	grid-column: 3 / 7;
+}
+
+#instagram-pic-5-container {
+	grid-column: 3 / 7;
+}
+
+#instagram-pic-6-container {
+	grid-column: 3 / 7;
+}
+
+#instagram-pic-7-container {
+	grid-column: 3 / 5;
+}
+
+#instagram-pic-8-container {
+	grid-column: 3 / 5;
+}
+
+#instagram-pic-9-container {
+	grid-column: 3 / 5;
+}
+
+#instagram-pic-10-container {
+	grid-column: 3 / 5;
+}
+
+#instagram-pic-11-container {
+	grid-column: 3 / 5;
+}
+
+#instagram-pic-12-container {
+	grid-column: 3 / 5;
+}
+
+#instagram-pic-13-container {
+	grid-column: 3 / 5;
+}
+
+#instagram-pic-14-container {
+	grid-column: 3 / 5;
+}
+
+#instagram-pic-15-container {
+	grid-column: 3 / 5;
+}
+
+.spacer-column-1 {
+	grid-row: 3 / 4;
+	grid-column: 1 / 3;
+	background-color: #f7f4f4;
+}
+
+.spacer-column-2 {
+	grid-row: 3 / 4;
+	grid-column: 11 / 13;
+	background-color: #f7f4f4;
+}
