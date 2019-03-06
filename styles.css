@@ -6,7 +6,21 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Teko');
 @import url('https://fonts.googleapis.com/css?family=Karla');
-	body {
+
+
+a:link {
+	text-decoration: none; 
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:hover {
+	color: #ff0000;
+}
+
+body {
 		margin: 0;
 		padding: 0;
 	}
@@ -57,7 +71,7 @@ p {
 .welcome-quote {
 	color: #ffffff;
     font-family: 'Heebo', sans-serif;
-    font-size: 10em;
+    font-size: 13em;
     font-weight: bolder;
     line-height: 1em;
     padding-right: 50px;

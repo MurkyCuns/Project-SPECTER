@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Rokkitt');
 
+a:link {
+	text-decoration: none; 
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:hover {
+	color: #ff0000;
+}
+
 body {
 	margin: 0;
 	padding: 0;
